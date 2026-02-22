@@ -2,7 +2,7 @@
 Designed to be controlled by AI agent. Simple Live2D frontend with UI pose, animation manager and REST api for remote control the model. 
 
 ![demo](demo.gif)
-※ Model in the sample gif is <code>SDちくわちゃん</code> by [入鹿ぱる @@pal156](https://x.com/pal156)
+※ Model in the sample gif is <code>SDちくわちゃん</code> by [入鹿ぱる @pal156](https://x.com/pal156)
 
 ## Feature
 - Pose manager
@@ -30,7 +30,7 @@ Due to licensing restrictions, this repo cannot include the Live2D libraries by 
 
 ### 1.2. Prepare your live2d model.
 
-You will need to place the directory of your live2d model in the <code>frontend</code> directory. The model directory must have <code>YOURMODEL.model3.json</code> and <code>YOURMODEL.cdi3.json</code>. (<code>YOURMODEL</code> can be any other name based on your model)
+You will need to place the directory of your live2d model in the <code>frontend/model/</code> directory. The model directory must have <code>YOURMODEL.model3.json</code> and <code>YOURMODEL.cdi3.json</code>. (<code>YOURMODEL</code> can be any other name based on your model)
 
 ### 1.3 Edit the config file (frontend/settings.json)
 
@@ -39,11 +39,11 @@ You will need to place the directory of your live2d model in the <code>frontend<
     "idle_timeout": 5,
     "queue_poll_interval": 200,
     "default_zoom": 0.35,
-    "model_path": "YOURMODEL/YOURMODEL.model3.json",
-    "background_video": "YOURMODEL/background.mp4",
-    "background_image": "YOURMODEL/background.jpg",
-    "profiles_path": "YOURMODEL/profiles.json",
-    "scenes_path": "YOURMODEL/scenes.json",
+    "model_path": "model/YOURMODEL/YOURMODEL.model3.json",
+    "background_video": "model/YOURMODEL/background.mp4",
+    "background_image": "model/YOURMODEL/background.jpg",
+    "profiles_path": "model/YOURMODEL/profiles.json",
+    "scenes_path": "model/YOURMODEL/scenes.json",
     "extras": [
         {
             "endpoint": "http://localhost:8001/test1",

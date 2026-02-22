@@ -2,11 +2,11 @@
     "idle_timeout": 5,
     "queue_poll_interval": 200,
     "default_zoom": 0.35,
-    "model_path": "YOURMODEL/YOURMODEL.model3.json",
-    "background_video": "YOURMODEL/background.mp4",
-    "background_image": "YOURMODEL/background.jpg",
-    "profiles_path": "YOURMODEL/profiles.json",
-    "scenes_path": "YOURMODEL/scenes.json",
+    "model_path": "model/YOURMODEL/YOURMODEL.model3.json",
+    "background_video": "model/YOURMODEL/background.mp4",
+    "background_image": "model/YOURMODEL/background.jpg",
+    "profiles_path": "model/YOURMODEL/profiles.json",
+    "scenes_path": "model/YOURMODEL/scenes.json",
     "extras": [
         {
             "endpoint": "http://localhost:8001/test1",
